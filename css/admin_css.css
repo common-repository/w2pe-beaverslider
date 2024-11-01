@@ -1,0 +1,65 @@
+.bSlider a{outline:none !important}
+.bSlider-main{
+	float:left;
+	width:72%;
+}
+.bSlider-info{
+	float:right;
+	width:25%;
+}
+.bSlider fieldset{
+	border:#999 solid 1px;
+	width:98%;
+	margin:10px 0;
+}
+.bSlider fieldset legend{margin-left:50px;font-weight:bold;font-size:14px}
+.bSlider .error{color:#F00;}
+.bSlider tr td{padding:5px 0}
+
+/*.bSlider input[type="text"]{*/
+.bSlider-main input[type="text"]{
+	width:300px;
+    padding: 5px;
+}
+.bSlider textarea{
+	width:300px;
+    padding: 5px;
+}
+
+/*.bSlider input[type="submit"] , input[type="button"]{
+	background:#464646;
+    color: #FFFFFF;
+    padding: 3px 10px;
+	cursor:pointer;
+}*/
+input[type="button"]{
+	background:#464646;
+    color: #FFFFFF;
+    padding: 3px 10px;
+	cursor:pointer;
+}
+.bSlider input[type="submit"]:hover{
+	background:#231F20;
+}
+.bSlider #msg{
+	margin:5px 0 15px;
+	width:96%;
+}
+.bSlider .detail{
+	display:none
+}
+.bSlider .event-image{
+	height:100px;
+	width:150px;
+	border:solid #000 2px;
+	vertical-align:middle;
+	margin-left:20px;
+}
+.bSlider a .dashicons{
+	color:#000;
+	text-decoration:none;
+}
+.bSlider .prepand{
+	float:left;
+	padding:0 20px;
+}
